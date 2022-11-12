@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'credit-card-sheldonAI'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A7DC92C1E9FF4FD0941C6757A6DE7D32 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_30FE5BE76C384901A53C1F508D775E28 }}
