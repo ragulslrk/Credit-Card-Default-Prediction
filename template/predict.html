@@ -79,11 +79,8 @@
                 <a href="index.html" class="app-brand-link gap-2">
                   <span class="app-brand-logo demo">
                     <div class="avatar">
-                      <img
-                        src="assets/img/avatars/logo.png"
-                        alt
-                        class="w-px-40 h-auto rounded-circle"
-                      />
+                      <img src="{{ url_for('static', filename='assets/img/logo.png')}}" alt="logo" />
+
                     </div>
                   </span>
                   <span class="app-brand-text demo text-body fw-bolder"
@@ -109,6 +106,7 @@
                     name="client_name"
                     placeholder="Enter Client Name"
                     autofocus
+                    required
                   />
                 </div>
                 <div class="mb-3">
@@ -119,6 +117,7 @@
                     id="email"
                     name="balance_limit"
                     placeholder="Enter Balance Limit(eg:1200.0 NT Dollars)"
+                    required
                   />
                 </div>
                 <div class="row">
